@@ -18,8 +18,7 @@ TWILIO_NUMBER = "+17372508034"
 # Your current Pinggy public URL
 PUBLIC_URL = "https://seeds-hotels-distributions-scuba.trycloudflare.com"
 
-client = Client(ACCOUNT_SID, AUTH_TOKEN)
-
+client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 # ============================================================
 # DATABASE
